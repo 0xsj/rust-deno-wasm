@@ -1,0 +1,15 @@
+[package]
+name = "rust-deno-wasm"
+version = "0.0.1"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+console_error_panic_hook = "0.1.7"
+wasm-bindgen = ""
+wasm-bindgen-futures=""
+web-sys = {version: "", features = []}
+
+
+[profile.release]
